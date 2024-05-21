@@ -23,7 +23,7 @@ Example of FedAvg experiment (**NB** training hyperparameters need to explicitly
 
 - **FEMNIST** (Image Classification)
 ```bash
-python main.py --dataset femnist --model resnet18 --num_rounds 1000 --num_epochs 5 --clients_per_round 10 
+python load_main.py --dataset femnist --model resnet18 --num_rounds 1000 --num_epochs 5 --clients_per_round 10 
 ```
 
 ## References
